@@ -29,9 +29,9 @@ app.use(cookieParser());
 // To handle request that is sent by frontend.
 app.use(
     cors({
-        origin:"http://localhost:3000",
+        // origin:"http://localhost:3000",
         // If needed in future
-        // origin:"*",
+        origin:"*",
         credentials:true,
     })
 )
